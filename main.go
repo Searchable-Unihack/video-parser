@@ -11,8 +11,6 @@ import (
 )
 
 func main() {
-	fmt.Println(len(os.Args), os.Args)
-
 	for i, f := range os.Args {
 		started := time.Now()
 
